@@ -8,6 +8,15 @@ max-width width width
 
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 img {
     max-width: 100%;/* image responsive, largeur maxi */
     height: auto;/* hauteur "auto" */
@@ -64,12 +73,13 @@ justify-content list-style margin none padding
 .caroussel_liste-liens {
     display: flex; /* aligne horizontalement les enfants */
     justify-content: center;/* centre horizontalement les enfants */
-    margin: 0; /* enlève les marges par défaut */
+    margin: 10px 0 0 0; /* enlève les marges par défaut */
     padding: 0; /* enlève les padding par défaut */
     list-style: none; /* enlève les puces par défaut */
     gap: 20px;/* espace entre les enfants */
   }
 
   .actif {
-    color: rgb(226, 89, 43);
+    color: rgb(7, 75, 128);
+    text-decoration: underline;
   }
