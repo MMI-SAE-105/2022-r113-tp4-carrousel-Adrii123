@@ -69,3 +69,7 @@ justify-content list-style margin none padding
     list-style: none; /* enlève les puces par défaut */
     gap: 20px;/* espace entre les enfants */
   }
+
+  .style {
+    color: rgb(226, 89, 43);
+  }
